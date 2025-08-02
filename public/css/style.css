@@ -1,0 +1,128 @@
+body {
+    font-family: "Poppins", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h3 {
+    padding-top: 1rem;
+}
+
+.container {
+    flex: 1;
+}
+
+.navbar-brand {
+    color: #fe424d !important;
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: white;
+    height: 5rem;
+}
+
+.ml-3 {
+    margin-right: 2.5rem;
+}
+
+.fa-compass {
+    color: #fe424d;
+}
+
+.nav-link {
+    color: #222222;
+}
+
+.icons {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: inherit;
+    margin: 0 1.2rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    color: #222222;
+    text-decoration: underline;
+}
+
+.f-info-links {
+    width: 100%;
+}
+
+.f-info-socials {
+    width: 100%;
+}
+
+.f-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 8rem;
+    background-color: #ebebeb;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Cards */
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 3rem;
+}
+
+.card-img-top {
+    border-radius: 1.5rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-text p {
+    padding: 0;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+.card-img-overlay {
+    opacity: 0;
+    background-color: white
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+}
+
+.add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+.show-img {
+    height: 30vh;
+}
+
+.col-1 {
+    display: flex !important;
+    border: none !important;
+}
+
+div .edit-btn {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+
+/* map */
+#map {
+    height: 400px;
+    width: 95vh;
+}
