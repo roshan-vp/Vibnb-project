@@ -39,8 +39,5 @@ Welcome to **Vibnb** – a minimal Airbnb-inspired full-stack web app where user
 - [ ] Wishlist / Favorites feature
 - [ ] Full search & filter functionality
 - [ ] Admin dashboard
-
----
-
-# 4. Start the app
+rt the app
 npm start
